@@ -11,7 +11,7 @@
 
 * öncelikle date nesnemizi oluşturuyoruz.
 
-`let now = new Date(); `
+  ```let now = new Date(); ```
 
  * Sonrasında date nesnemizden ihtiyacımız olan özellikleri çağırdık. get<istenilen özellik>()
 
@@ -22,6 +22,7 @@
      let day = dateTime.getDay(); 
    ```
 * Girilen andaki günü göstermek için küçük bir dönüştürme işlemi yaptık.
+
   ```let gunler = ["pazar", "pazartesi" .... ]
      let gunAdi = gunler[day];  ```
 
@@ -30,5 +31,5 @@
 ### Önemli!!
 
 * Ekranımızda saatin akışını görmek istersek setIntervial kullandık. bu ShowTime() functionumuzu sürekli günceller.
-  `setInterval(showTime, 1000); `
+  ```setInterval(showTime, 1000); ```
 ````
